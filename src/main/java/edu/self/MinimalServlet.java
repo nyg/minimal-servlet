@@ -29,7 +29,7 @@ public class MinimalServlet implements Servlet {
 
     @Override
     public String getServletInfo() {
-        logger.info(" Servlet info requested");
+        logger.info("Servlet info requested");
         return "A Minimal Servlet";
     }
 
